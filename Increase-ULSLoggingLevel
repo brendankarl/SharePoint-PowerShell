@@ -28,4 +28,4 @@ if ($ulsSeverity -ne 'Verbose')
 else 
 {
     $eventLog.WriteEntry("Event logging script has just been executed. Not raising ULS level as it is already set to Verbose. Doing nothing :)", "Information", 3456)
-}Enter file contents here
+}
